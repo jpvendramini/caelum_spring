@@ -21,7 +21,7 @@ public class TopicController {
         Topic topic = new Topic("Problemas com o JSF",
                 "Erro ao fazer conversão de data",
                 new User("Fulano","fulano@gmail.com","12345"), course);
-        List<Topic> topics = Arrays.asList(topic, topic, topic);
+        List<Topic> topics = Arrays.asList(topic, topic, topic,topic,topic);
         return TopicBriefOutputDto.listFromTopics(topics);
     }
 }
